@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRY Eyewear</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .products, .repair-services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+        .product-item, .service-item {
+            width: 30%;
+            margin: 1.5%;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            position: relative;
+        }
+        .product-item img, .service-item img {
+            width: 100%;
+            height: auto;
+        }
+        .product-item:hover .order-link, .service-item:hover .order-link {
+            display: block;
+        }
+        .order-link {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            line-height: 200px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        footer img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/ww_01.png" alt="Top Image">
+    </header>
+
+    <div class="container">
+        <section class="repair-services">
+            <div class="service-item">
+                <img src="images/fix (4).jpg" alt="Coating Service">
+                <p>鏡框烤漆電鍍</p>
+                <p>NT$2,000+</p>
+                <div class="order-link"><a href="detail-page1.html" style="color: white;">點擊查看詳細</a></div>
+            </div>
+            <div class="service-item">
+                <img src="images/fix (3).jpg" alt="Lens Repair">
+                <p>鏡腳鬆脫修理</p>
+                <p>NT$800+</p>
+                <div class="order-link"><a href="detail-page2.html" style="color: white;">點擊查看詳細</a></div>
+            </div>
+            <div class="service-item">
+                <img src="images/fix (5).jpg" alt="Nose Pad Repair">
+                <p>彈簧鏡腳修理</p>
+                <p>NT$950+</p>
+                <div class="order-link"><a href="detail-page3.html" style="color: white;">點擊查看詳細</a></div>
+            </div>
+            <div class="service-item">
+                <img src="images/fix (1).jpg" alt="Frame Repair">
+                <p>鏡框斷裂修補</p>
+                <p>NT$1,500+</p>
+                <div class="order-link"><a href="detail-page4.html" style="color: white;">點擊查看詳細</a></div>
+            </div>
+            <div class="service-item">
+                <img src="images/fix (2).jpg" alt="Nose Pad Replacement">
+                <p>鼻墊改造加工</p>
+                <p>NT$500+</p>
+                <div class="order-link"><a href="detail-page5.html" style="color: white;">點擊查看詳細</a></div>
+            </div>
+        </section>
+	    <footer>
+        <img src="images/ww_03.png" alt="Bottom Image" width="100%">
+       </footer>
+
+        <section class="products">
+            <div class="product-item">
+                <img src="images/buy (2).jpg" alt="Flexible Metal">
+                <p>可動金屬</p>
+                <p>NT$700</p>
+                <div class="order-link"><a href="product-detail1.html" style="color: white;">點擊下單</a></div>
+            </div>
+            <div class="product-item">
+                <img src="images/buy (1).jpg" alt="One-Piece Nose Pad (Small)">
+                <p>一體成形(小)</p>
+                <p>NT$500</p>
+                <div class="order-link"><a href="product-detail2.html" style="color: white;">點擊下單</a></div>
+            </div>
+            <div class="product-item">
+                <img src="images/buy (3).jpg" alt="BETA Titanium (Short)">
+                <p>BETA鈦金屬(卡中短)</p>
+                <p>NT$800</p>
+                <div class="order-link"><a href="product-detail3.html" style="color: white;">點擊下單</a></div>
+            </div>
+        </section>
+    </div> 
+	
+    <footer>
+        <img src="images/ww_05.png" alt="Bottom Image">
+    </footer>
+</body>
+</html>
